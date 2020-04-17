@@ -436,3 +436,168 @@ body
     opacity: 0.8;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
+
+
+/* MEDIA */
+
+@media (max-width:1200px)
+{
+    .intro__title
+    {
+        font-size: 40px;
+    }
+}
+@media (max-width:992px)
+{
+    .intro__subtitle
+    {
+        font-size: 20px;
+    }
+    .features__item
+    {
+        width: 47%;
+    }
+    .works__item
+    {
+        width: calc(100%/3);
+    }
+    .team__item
+    {
+        width: 50%;
+        padding-bottom: 25px;
+    }
+    .team__img
+    {
+        display: block;
+        margin: 0 auto;
+    }
+    .rewiew__text
+    {
+        font-size: 32px;
+    }
+}
+@media (max-width:720px)
+{
+    .nav__link
+    {
+        margin-left: 15px;
+        font-size: 13px;
+    }
+    .rewiew__text
+    {
+        font-size: 25px;
+    }
+    .rewiew__content
+    {
+        width: 100%;
+    }
+    .rewiew__photo
+    {
+        width: 100%;
+    }
+    .rewiew__img
+    {
+       right: -20px;
+    }
+
+}
+@media(max-width:544px)
+{
+    .nav
+    {
+        display: none;
+    }
+    .header__logo
+    {
+        margin: 0 auto;
+    }
+    .intro__title
+    {
+        font-size: 35px;
+    }
+    .intro__subtitle
+    {
+        font-size: 16px;
+    }
+    .features__item
+    {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .works__item
+    {
+        width: 50%;
+    }
+    .team__item
+    {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .team__text
+    {
+        text-align: center;
+    }
+    .rewiew__img
+    {
+        right: -50px;
+    }
+    .rewiew__text
+    {
+        font-size: 20px;
+    }
+    .download__title
+    {
+        line-height: 1;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .footer
+    {
+        padding: 50px 0;
+    }
+    .footer__item
+    {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:320px)
+{
+    .intro__title
+    {
+        font-size: 27px;
+        line-height: 1.5;
+    }
+    .features
+    {
+        margin-top: 50px;
+    }
+    .features__item
+    {
+        width: 95%;
+    }
+    .rewiew__img
+    {
+        right: -130px;
+    }
+    .rewiew__content
+    {
+        padding: 0 0 5px 0;
+    }
+    .download__title
+    {
+        font-size: 25px;
+    }
+    .download__text
+    {
+        font-size: 12px;
+    }
+    .download__btn
+    {
+        width: 200px;
+        padding: 15px 35px 15px 35px;
+    }
+}
