@@ -76,7 +76,7 @@ body
 .intro
 {
     height: 750px;
-    background: url(/img/Layer_34.png) center no-repeat;
+    background: url(../img/Layer_34.png) center no-repeat;
     background-size: cover;
     padding-top: 100px;
     display: flex;
